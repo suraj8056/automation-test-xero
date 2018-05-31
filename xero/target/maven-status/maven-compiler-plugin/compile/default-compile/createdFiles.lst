@@ -1,0 +1,6 @@
+com\xero\automation\xero\Login_Page.class
+com\xero\automation\xero\AccountDetails_Page.class
+com\xero\automation\xero\AddAccount_Test.class
+com\xero\automation\xero\Logout_Page.class
+com\xero\automation\xero\Home_Page.class
+com\xero\automation\xero\Accounts_Page.class

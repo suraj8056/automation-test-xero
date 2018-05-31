@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression-Xero">
+	<test name="AddAccount">
+		<classes>
+			<class name="com.xero.automation.xero.AddAccount_Test">
+			</class>
+		</classes>
+	</test>
+</suite>

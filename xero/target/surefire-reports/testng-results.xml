@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression-Xero" duration-ms="51275" started-at="2018-05-30T23:51:42Z" finished-at="2018-05-30T23:52:34Z">
+    <groups>
+    </groups>
+    <test name="AddAccount" duration-ms="51275" started-at="2018-05-30T23:51:42Z" finished-at="2018-05-30T23:52:34Z">
+      <class name="com.xero.automation.xero.AddAccount_Test">
+        <test-method status="PASS" signature="openchrome()[pri:0, instance:com.xero.automation.xero.AddAccount_Test@59a6e353]" name="openchrome" duration-ms="15857" started-at="2018-05-31T11:51:43Z" finished-at="2018-05-31T11:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openchrome -->
+        <test-method status="PASS" signature="getLoginPage()[pri:1, instance:com.xero.automation.xero.AddAccount_Test@59a6e353]" name="getLoginPage" duration-ms="4876" started-at="2018-05-31T11:51:58Z" finished-at="2018-05-31T11:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginPage -->
+        <test-method status="PASS" signature="LogInto()[pri:2, instance:com.xero.automation.xero.AddAccount_Test@59a6e353]" name="LogInto" duration-ms="11274" started-at="2018-05-31T11:52:03Z" finished-at="2018-05-31T11:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInto -->
+        <test-method status="PASS" signature="AddAcc()[pri:3, instance:com.xero.automation.xero.AddAccount_Test@59a6e353]" name="AddAcc" duration-ms="7946" started-at="2018-05-31T11:52:15Z" finished-at="2018-05-31T11:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAcc -->
+        <test-method status="PASS" signature="AccDetails()[pri:4, instance:com.xero.automation.xero.AddAccount_Test@59a6e353]" name="AccDetails" duration-ms="5505" started-at="2018-05-31T11:52:22Z" finished-at="2018-05-31T11:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccDetails -->
+        <test-method status="PASS" signature="Logout()[pri:5, instance:com.xero.automation.xero.AddAccount_Test@59a6e353]" name="Logout" duration-ms="5712" started-at="2018-05-31T11:52:28Z" finished-at="2018-05-31T11:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.xero.automation.xero.AddAccount_Test -->
+    </test> <!-- AddAccount -->
+  </suite> <!-- Regression-Xero -->
+</testng-results>
