@@ -7,7 +7,6 @@ version: 2
 updates:
   - package-ecosystem: "maven" # See documentation for possible values
     directory: "xero/" # Location of package manifests
-    pull-request-branch-name:
-      separator: "/"
+    target-branch: "Add-Account"
     schedule:
       interval: "weekly"
