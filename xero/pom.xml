@@ -33,6 +33,11 @@
 		    <artifactId>tomcat-catalina</artifactId>
 		    <version>11.0.2</version>
 		</dependency>
+		<dependency>
+		    <groupId>com.squareup.retrofit2</groupId>
+		    <artifactId>retrofit</artifactId>
+		    <version>2.4.0</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 	</dependencies>
 
