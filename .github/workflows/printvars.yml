@@ -13,11 +13,11 @@ jobs:
 
       - name: Print Repo Variable
         run: |
-          echo ${{ env.Id }}
+          echo ${{ secrets.passkey }}
 
       - name: Print Repo Variable
         run: |
-          echo ${{ secrets.passkey }}
+          echo ${{ vars.Id }}
       
       - name: Print Repo Variable
         run: |
