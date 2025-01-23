@@ -4,22 +4,22 @@ on:
 
 jobs:
   PrintingVars:
-    environment: dev
+    # environment: dev
     runs-on: ubuntu-latest
     steps:
       - name: Print Repo Variable
         run: |
           echo ${{ vars.username }}
 
-      - name: Print Repo Variable
+      - name: Print Repo Secret
         run: |
           echo ${{ secrets.passkey }}
 
-      - name: Print Repo Variable
+      - name: Print Env Variable
         run: |
           echo ${{ vars.Id }}
       
-      - name: Print Repo Variable
+      - name: Print Env Secret
         run: |
           echo ${{ secrets.apikey }}
         
