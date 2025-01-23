@@ -1,0 +1,24 @@
+name: 'Dependency review'
+on:
+  workflow_dispatch:
+
+jobs:
+  PrintingVars:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Repo Variable
+        run: |
+          echo ${{ vars.username }}
+
+      - name: Print Repo Variable
+        run: |
+          echo ${{ env.Id }}
+
+      - name: Print Repo Variable
+        run: |
+          echo ${{ secrets.passkey }}
+      
+      - name: Print Repo Variable
+        run: |
+          echo ${{ secrets.apikey }}
+        
