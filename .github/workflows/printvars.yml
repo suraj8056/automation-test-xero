@@ -1,4 +1,4 @@
-name: 'Dependency review'
+name: 'Printing Vars'
 on:
   workflow_dispatch:
 
