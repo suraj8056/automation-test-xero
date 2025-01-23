@@ -4,7 +4,7 @@ on:
 
 jobs:
   PrintingVars:
-    # environment: dev
+    environment: dev
     runs-on: ubuntu-latest
     steps:
       - name: Print Repo Variable
